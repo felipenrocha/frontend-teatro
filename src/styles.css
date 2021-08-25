@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+@font-face {
+    font-family: "Madefor";
+    src: local("Madefor"), url(./assets/fonts/WixMadeforText-Regular.otf) format("opentype");
+}
+
+body {
+    margin: 0;
+    font-family: "Madefor", "Helvetica Neue", sans-serif;
+}

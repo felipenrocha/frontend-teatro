@@ -1,0 +1,101 @@
+.title {
+    font-size: 56px;
+    margin-bottom: 17px;
+    font-weight: 700;
+}
+
+.sublogin {
+    justify-content: space-between;
+    padding-bottom: 25px;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.login-terms {
+    text-align: center;
+    margin-top: 66px;
+    font-size: 14px;
+    width: 700px;
+    line-height: 24px;
+    color: #2F2F30;
+}
+
+.social-button {
+    padding: 15px;
+    margin: 15px;
+}
+
+.facebook-button {
+    margin: 15px;
+    width: 100%;
+    color: white;
+    background-color: #3b5998;
+}
+
+.google-button {
+    margin: 15px;
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+
+.reddit-button {
+    margin: 15px;
+    width: 100%;
+    color: white;
+    background-color: #FF5700;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login-box {
+    text-align: left;
+    width: 50%;
+    font-size: 16px
+}
+
+.login-button {
+    background-color: #116dff;
+    z-index: 2;
+    color: white;
+    margin-left: 100px;
+    width: 60%;
+    font-family: "Madefor"
+}
+
+.forgot-password {
+    height: 20px;
+    line-height: 1;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.remember-me {
+    line-height: 1;
+    font-size: 14px;
+    flex-direction: row-reverse;
+}
+
+.container {
+    text-align: center;
+    font-family: "Madefor", sans-serif;
+    color: #20303c;
+    letter-spacing: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.example-form {
+    align-items: left;
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.link {
+    color: #116dff;
+    cursor: pointer;
+}
