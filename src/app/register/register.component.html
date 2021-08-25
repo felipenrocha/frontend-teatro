@@ -1,0 +1,77 @@
+<div class="container">
+    <mat-grid-list cols="13" rowHeight="20px">
+        <mat-grid-tile [colspan]="13" [rowspan]="8"></mat-grid-tile>
+
+        <mat-grid-tile [colspan]="13" [rowspan]="6">
+            <!-- Login title -->
+            <h1 class='title'>Registre-se</h1>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="13" [rowspan]="2">
+
+            <div class="subtitle">Já tem uma conta? <span class="link" [routerLink]="['/login']">Faça Login</span></div>
+        </mat-grid-tile>
+
+
+        <mat-grid-tile [colspan]="3" [rowspan]="17"></mat-grid-tile>
+
+        <!-- left box -->
+        <mat-grid-tile [colspan]="3" [rowspan]="17">
+
+            <form class="example-form">
+                <mat-form-field style="width: 65%;">
+                    <mat-label>Email</mat-label>
+                    <input matInput>
+                </mat-form-field>
+                <mat-form-field style="width: 65%;">
+                    <mat-label>Digite o email novamente</mat-label>
+                    <input matInput>
+                </mat-form-field>
+                <br>
+                <mat-form-field style="width: 65%;">
+                    <mat-label>Senha</mat-label>
+                    <input matInput type="password">
+
+                </mat-form-field>
+                <mat-form-field style="width: 65%;">
+                    <mat-label>Digite a senha novamente</mat-label>
+                    <input matInput type="password">
+
+                </mat-form-field>
+                <br>
+                <br>
+                <div class="login-box">
+                    <button class="login-button" mat-raised-button>Registrar-se</button>
+                </div>
+            </form>
+
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="1" [rowspan]="17">
+            <mat-divider vertical style="height:240px; width: 1px;
+            opacity: .8;
+            background-color: #858f96;
+            margin: 0 71px;"></mat-divider>
+
+        </mat-grid-tile>
+        <!-- right box -->
+        <mat-grid-tile [colspan]="3" [rowspan]="17">
+            <div class="social-button">
+                <button mat-raised-button color="basic" class="facebook-button"> 
+                    <mat-icon aria-hidden="false" aria-label="Example home icon">facebook</mat-icon>
+                    Continuar com Facebook</button>
+                <br>
+                <button mat-raised-button color="basic" class="reddit-button"> 
+                    <span class="material-icons md-18">reddit</span>
+                    Continuar com Reddit</button>
+            </div>
+        </mat-grid-tile>
+
+
+        <mat-grid-tile [colspan]="3 " [rowspan]="17 "></mat-grid-tile>
+        <mat-grid-tile [colspan]="12" [rowspan]="17 ">
+            <div class="login-terms">
+                * Ao se registrar, você concorda com os nossos <span class="link">Termos de Uso</span>, em receber emails e atualizações do Teatro e confirma que leu nossa <span class="link">Política de Privacidade.</span>
+            </div>
+        </mat-grid-tile>
+
+    </mat-grid-list>
+</div>
